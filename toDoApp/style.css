@@ -1,0 +1,91 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(121, 121, 121, 0.068);
+    margin: 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    margin: 20px;
+    border: 3px solid rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.062);
+
+    min-height: 80vh;
+    height: auto;
+    width: 70vh;
+
+
+    display:flex;
+    flex-direction: column;
+    
+    align-items: center;
+
+    background-color: rgba(252, 254, 255, 0.699);
+}
+
+#heading{
+    font-weight: bold;
+    color: hsla(0, 0%, 0%, 0.616);
+    font-size: 1.2rem;
+}
+.inputAndAppend{
+    margin: 0px 10px 10px 10px;
+    display: flex;
+}
+
+#inputBox, #addTask{
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    font-size: 1.2rem;
+    border-radius: 4px;
+    padding: 2px 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.062);
+}
+#inputBox{
+    width: 20rem;
+}
+#addTask{
+    font-weight: bold;
+    padding: 2px 8px;
+    background: linear-gradient(rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.397)) ;
+    color: white;
+    cursor: pointer;
+    margin: 0 2px;
+}
+#addTask:hover{
+    background: linear-gradient(rgba(95, 95, 95, 0.555), rgba(146, 145, 145, 0.397));
+    color: black;
+}
+
+.container{
+    margin-top: 4px;
+    min-height: 60vh;
+    width: 58vh;
+    /* border: 2px solid rgba(0, 0, 0, 0.288); */
+    border-radius: 1%;
+    margin: 3px;
+}
+
+.tasks{
+    margin: 4px 4px;
+    width: 53.5vh;
+}
+.task{
+    color: rgba(0, 0, 0, 0.753);
+    font-size: large;
+    width: 58vh;
+}
+.dateAndTime{
+    font-size: 0.00001rem;
+    line-height: 0.2rem;
+    color: rgba(0, 0, 0, 0.438);
+    margin-left: 40vh;
+
+    opacity: 0;
+    transition: opacity 0.3s ease, font-size 0.4s ease-out;
+}
+.tasks:hover .dateAndTime{
+    font-size: 0.7rem;
+    opacity: 1;
+}

@@ -1,0 +1,13 @@
+<BLUE Print>
+
+1. display empty card
+    1.1 input box
+    1.2 add button to append the list
+
+2. can add tasks
+    2.1 can tick tasks as completed
+    2.2 can remove tasks that are completed
+
+
+>>Card Contents
+    1. 

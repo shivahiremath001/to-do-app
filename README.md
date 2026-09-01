@@ -2,7 +2,7 @@
 
 A lightweight, fully functional To-Do application built with vanilla web technologies. It features persistent local storage, smart state management, and a clean, responsive UI with interactive hover effects.
 
-**[View Live Demo](https://shivahiremath001.github.io/to-do-app/)**
+**[View Live Demo](https://shivahiremath001.github.io/to-do-app/toDoApp)**
 
 ## ✨ Features
 
